@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.name {
+  cursor: pointer;
+  color: #1e293b;
+  font-weight: 22px;
+  font-weight: bold;
+  margin: 2vw;
+  padding: 5px 20px;
+}
+.selected-name {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  outline: none;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 767px) {
+  .nav-bar {
+    justify-content: flex-start;
+  }
+  .name {
+    font-size: 18px;
+    padding: 5px 15px;
+  }
+}
